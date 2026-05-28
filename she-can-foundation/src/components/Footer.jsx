@@ -41,6 +41,9 @@ function Footer() {
         <p>© 2026 She Can Foundation. All rights reserved.</p>
         <p>Made with ❤️ for every woman who dares to rise.</p>
       </div>
+      <div className="disclaimer">
+       ✨ This is a student project. All statistics and details are for demonstration purposes only.
+      </div>
 
     </footer>
   )
