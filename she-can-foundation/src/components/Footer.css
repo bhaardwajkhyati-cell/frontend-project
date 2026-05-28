@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap');
+
+.footer {
+  background: linear-gradient(135deg, #2d1b1b, #3d2020);
+  color: rgba(255, 255, 255, 0.75);
+  font-family: 'Nunito', sans-serif;
+  padding: 4rem 4rem 2rem;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  flex-wrap: wrap;
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 2rem;
+}
+
+.footer-brand h2 {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #ff6b9d;
+  margin-bottom: 0.8rem;
+}
+
+.footer-brand p {
+  font-size: 0.9rem;
+  line-height: 1.7;
+  max-width: 260px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-links h4,
+.footer-contact h4 {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #ff6b9d;
+  margin-bottom: 1rem;
+  font-weight: 800;
+}
+
+.footer-links ul,
+.footer-contact ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.footer-links ul a {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.2s, transform 0.2s;
+  display: inline-block;
+}
+
+.footer-links ul a:hover {
+  color: #ff6b9d;
+  transform: translateX(4px);
+}
+
+.footer-contact ul li {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-socials {
+  display: flex;
+  gap: 0.8rem;
+  margin-top: 1.2rem;
+}
+
+.footer-socials a {
+  font-size: 1.4rem;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.footer-socials a:hover {
+  background: #e8607a;
+  transform: translateY(-3px);
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-size: 0.82rem;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+@media (max-width: 768px) {
+  .footer { padding: 3rem 1.5rem 1.5rem; }
+  .footer-top { flex-direction: column; gap: 2rem; }
+  .footer-bottom { flex-direction: column; text-align: center; }
+}
